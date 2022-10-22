@@ -1,0 +1,339 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.navs {
+  background-color: #fcfafa !important;
+  box-shadow: 3px 5px 8px rgba(150, 148, 148, 0.493) !important; 
+  padding: 20px;
+  
+}
+
+.myBody {
+    
+}
+
+.navbar-brand {
+    margin: 0 20px;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    height: 70px;
+}
+
+.hov {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hov::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #1b1b1b;
+    height: 3px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hov:hover:before, .hovr:focus:before, .hov:active:before {
+    left: 0;
+    right: 0;
+  }
+  
+ 
+
+div ul li a {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* card design */
+
+.login-card {
+  min-height: 45vh;
+  width: 420px;
+  padding: .8rem;
+  box-shadow: 5px 2px 5px rgba(150, 148, 148, 0.493); 
+  overflow: hidden;
+
+  
+}
+
+.sign-up-card {
+  min-height: 480px;
+  width: 420px;
+  padding: .8rem;
+  margin-bottom: 50px;
+  overflow: hidden;
+  margin-top: 20px !important;
+  }
+
+.login-card, .sign-up-card, .admin-panel, .create-room-card, .book-card {
+    max-width: 100%;
+    box-shadow: 5px 10px 17px rgba(150, 148, 148, 0.493); 
+  }
+
+.login-links {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.login-links-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  margin-left: 10px !important;
+  margin-top: 5px !important;
+}
+
+.admin-panel {
+  min-height: 80vh;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.admin-card {
+  height: 100vh;
+  width: 100%;
+}
+
+.create-room-card {
+  min-height: 480px;
+  width: 420px;
+  padding: .8rem;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+
+.sidebar {
+  display: block;
+  width: 200px;
+  position: relative;
+  top:70px;
+  background-color: #ffffff;
+  padding: 0px 18px;
+  z-index: 1000;
+  overflow: hidden;
+  box-shadow: 5px 10px 17px rgba(150, 148, 148, 0.493); 
+  transition: all .5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  
+}
+.sidebar a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+
+
+.menu a {
+  display: block;
+  font-size: 18px;
+  color: #717171;
+  padding: 10px 5px;
+  transition: .5s ease-in-out;
+  text-overflow: clip;
+}
+
+.menu a:hover {
+  background-color: rgb(167, 167, 167);
+  color: rgb(54, 54, 54);
+
+}
+
+.content-margin-top {
+  margin-top: 130px !important;
+}
+
+.close {
+  font-size: 30px;
+  position: relative;
+  left: 120px;
+
+}
+
+.dashboard-card {
+  min-width: 200px !important;
+  min-height: 20vh !important;
+  margin-bottom: 10px !important;
+}
+.dashboard-card {
+  max-width: 100% !important;
+}
+
+.book-card {
+  min-height: 440px !important;
+  width: 420px;
+  padding: .8rem;
+  margin-bottom: 20px !important;
+  overflow: hidden;
+}
+
+.view-details {
+  text-align: center;
+  text-decoration: none;
+  color: #5f5f5f;
+}
+.view-details:hover {
+  color: #3c3c3c;
+}
+
+/* rooms custom */
+.rooms {
+  max-width: 100% !important;
+  min-height: 20vh !important;
+  margin-bottom: 20px;
+}
+
+.info {
+  padding: 20px 20px;
+  background-color: #ebe2e2 !important;
+}
+
+.room-container {
+  margin-bottom: 30px !important;
+}
+
+/* footer custom design */
+.footer {
+  padding: 40px 0 !important;
+  background-color: #fef0f0 !important;
+}
+
+.footer-content {
+  font-size: 13px;
+  font-weight: 100;
+  color: rgb(73, 72, 72);
+}
+
+.footer-content ul li a{
+  text-decoration: none !important;
+  color: rgb(149, 149, 149) !important;
+}
+.footer-content ul li a:hover{
+  color: rgb(59, 59, 59) !important;
+}
+.social i {
+  padding: 8px 0;
+  margin-left: 8px;
+  font-size: 30px !important;
+  color: rgb(22, 22, 22) !important;
+}
+.social i:hover{
+  color: rgb(94, 93, 93) !important;
+}
+
+.f-forms {
+  border-radius: 0 !important;
+}
+.fa-cog {
+  color: black !important; 
+}
+
+.img-content{
+  background: url('../images/photos/banner.jpg') no-repeat center center fixed !important; 
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important ;
+  height: 100vh !important;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.carousel-caption h1 {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  padding: 5px 0;
+  font-size: 76px;
+}
+
+/* Room Detail Custom */
+.img-detail {
+  object-fit: contain;
+}
+
+.room-features {
+  padding: 20px 0;
+}
+
+.size-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e9e0e0 !important;
+  height: 150px;
+  width: 150px;
+  margin: 10px 0;
+}
+
+.size-price {
+  min-width: 100%;
+}
+
+.book-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-book {
+  height: 50px;
+  width: 150px;
+}
+
+.btn-lg {
+  padding:10px 70px !important;
+}
+
+.bg-color{
+  background-color: #f4eeee !important;
+  
+}
+
+.landing-btn {
+padding: 10px 30px !important;
+font-size: 30px !important;
+border-radius: 0px;
+transition: all .3sec;
+}
+.landing-btn:hover{
+  background-color: #3c3c3c;
+  color: #ffffff;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -20px;
+}
+
+.index-title {
+  letter-spacing: 5px;
+  text-overflow: clip;
+}
